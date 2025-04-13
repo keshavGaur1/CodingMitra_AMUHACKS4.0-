@@ -61,6 +61,20 @@ A digital health profile accessible via:
 
 ### Backend Setup
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/emergency-qr-id.git
-   cd emergency-qr-id/backend
+
+2. Install dependencies:
+bash
+npm install
+
+
+Configure environment variables:
+bash
+cp .env.example .env
+
+
+# Edit .env with your credentials
+Start the development server:
+bash
+npm run dev
+
+
