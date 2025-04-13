@@ -1,0 +1,220 @@
+/* Background with Gradient Animation */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #744168, #00aaff, #ff6347, #32cd32);
+    background-size: 400% 400%;
+    animation: gradientShift 6s ease infinite;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Gradient animation */
+  @keyframes gradientShift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+/* Centered Login Form */
+.login-container {
+    width: 100%;
+    max-width: 450px;
+    padding: 40px;
+    background: rgba(110, 83, 83, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    transform: translateY(-20px);
+    animation: floatEffect 3s ease-in-out infinite alternate;
+  }
+  
+  /* Floating Animation for the Form */
+  @keyframes floatEffect {
+    0% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(20px);
+    }
+  }
+  
+  /* Neon Glow Effect on Form Title */
+  h2 {
+    font-size: 2.5em;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-shadow: 0 0 15px #00aaff, 0 0 20px #00aaff, 0 0 30px #00aaff;
+    letter-spacing: 2px;
+  }
+  
+  /* Input Fields with Neon Glow */
+  input {
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    background: rgba(101, 57, 57, 0.8);
+    color: white;
+    font-size: 1.1em;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  input:focus {
+    outline: none;
+    box-shadow: 0 0 15px #00aaff;
+    transform: scale(1.05);
+  }
+  
+  /* Neon Glow Button */
+  button {
+    width: 100%;
+    padding: 14px;
+    background-color: #00aaff;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 20px rgba(0, 170, 255, 0.7);
+  }
+  
+  button:hover {
+    background-color: #00d4ff;
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.7);
+  }
+  
+  button:active {
+    background-color: #009fcc;
+    transform: scale(0.98);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+  }
+
+/* Background with Gradient Animation */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #47203e, #0c212b, #251515, #0d1c0d);
+    background-size: 400% 400%;
+    animation: gradientShift 6s ease infinite;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Gradient animation */
+  @keyframes gradientShift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* Centered Login Form */
+  .login-container {
+    width: 100%;
+    max-height: 700px;
+
+    max-width: 650px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    transform: translateY(-20px);
+    animation: floatEffect 3s ease-in-out infinite alternate;
+  }
+  
+  /* Floating Animation for the Form */
+  @keyframes floatEffect {
+    0% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(20px);
+    }
+  }
+  
+  /* Neon Glow Effect on Form Title */
+  h2 {
+    font-size: 2.5em;
+    color: #f7f7f7;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    text-shadow: 0 0 15px #000000, 0 0 20px #096f3e, 0 0 30px #00aaff;
+    letter-spacing: 2px;
+  }
+  
+  /* Input Fields with Neon Glow */
+  input {
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    background: rgba(0, 0, 0, 0.8);
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+    box-shadow: 0 0 10px rgba(18, 182, 182, 0.5);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  input:focus {
+    outline: none;
+    box-shadow: 0 0 15px #00aaff;
+    transform: scale(1.05);
+  }
+  
+  /* Neon Glow Button */
+  button {
+    width: 100%;
+    padding: 14px;
+    background-color: #00aaff;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 20px rgba(0, 170, 255, 0.7);
+  }
+  
+  button:hover {
+    background-color: #00d4ff;
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.7);
+  }
+  
+  button:active {
+    background-color: #009fcc;
+    transform: scale(0.98);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+  }
+  
