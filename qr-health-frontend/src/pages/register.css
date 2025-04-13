@@ -1,0 +1,96 @@
+/* Full screen background */
+.login-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #063f56, #05284b);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Main card layout split into two */
+.card {
+  display: flex;
+  width: 90%;
+  max-width: 950px;
+  height: 540px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+/* Left side image block */
+.card .left {
+  flex: 1;
+  background: url('https://cdn.pixabay.com/photo/2017/08/06/05/33/woman-2587069_1280.jpg') no-repeat center;
+  background-size: cover;
+}
+
+/* Right side form */
+.card .right {
+  flex: 1;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Form styling */
+.card .right form {
+  display: flex;
+  flex-direction: column;
+}
+
+.card .right h2 {
+  margin-bottom: 20px;
+  color: #1b4d6b;
+}
+
+.card .right input,
+.card .right select,
+.card .right textarea {
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  background-color: #f9f9f9;
+}
+
+.card .right button {
+  background-color: #1b4d6b;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.card .right button:hover {
+  background-color: #176083;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.qr-fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #ffffff; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
